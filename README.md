@@ -4,7 +4,7 @@
 
 - 项目站点：https://1ouxilisi.github.io/sha256-openlane-tapeout/
 - 仓库：https://github.com/1ouxilisi/sha256-openlane-tapeout
-- 作品集（10 页 PDF）：https://1ouxilisi.github.io/sha256-openlane-tapeout/portfolio.pdf
+- 作品集（11 页 PDF，含整页版图）：https://1ouxilisi.github.io/sha256-openlane-tapeout/portfolio.pdf
 
 ## 这颗芯片
 
