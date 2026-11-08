@@ -12,6 +12,11 @@ SHA-256 硬件加速器，SkyWater sky130A 工艺、OpenLane 1.1.1 全开源流�
 
 同一份 GDS（40,666,588 字节，sha256 `89cda760…`）上完成的复核：
 
+<img src="https://1ouxilisi.github.io/sha256-openlane-tapeout/images/sha256_antclean_layout.png" alt="天线 0/0、补齐 fill 这一版 GDS 的金属层渲染" width="100%">
+
+上面就是那份 GDS 自己的渲染：展平后 3,021,383 个多边形，bbox 0,0 – 640,640 µm，只画 li1 与 m1–m5 六层（`gdspy` 展平 + `matplotlib` 上色，不是查看器截图）。
+
+
 - KLayout signoff DRC：218 个规则类、0 条；正对照同 deck 立刻报 1 条，证明不是空跑
 - 金属密度：li1 / m1 / m2 / m3 / m4 / m5 六层空孔率 0.4991–0.9716，全部在阈值之上、0 条
 - LVS：Magic 从 GDS 提取的晶体管网表对 OpenROAD 写出的网表，`Circuits match uniquely`，两侧 34,289 个实例、94 个端口
